@@ -14,6 +14,7 @@
 		669BB70327D64F87002F8E66 /* Sales_Recreation_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB70227D64F87002F8E66 /* Sales_Recreation_AppTests.swift */; };
 		669BB70D27D64F87002F8E66 /* Sales_Recreation_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB70C27D64F87002F8E66 /* Sales_Recreation_AppUITests.swift */; };
 		669BB70F27D64F87002F8E66 /* Sales_Recreation_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB70E27D64F87002F8E66 /* Sales_Recreation_AppUITestsLaunchTests.swift */; };
+		669BB71D27D65699002F8E66 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB71C27D65699002F8E66 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		669BB70827D64F87002F8E66 /* Sales_Recreation_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sales_Recreation_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669BB70C27D64F87002F8E66 /* Sales_Recreation_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales_Recreation_AppUITests.swift; sourceTree = "<group>"; };
 		669BB70E27D64F87002F8E66 /* Sales_Recreation_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sales_Recreation_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669BB71C27D65699002F8E66 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		669BB6F027D64F84002F8E66 /* Sales_Recreation_App */ = {
 			isa = PBXGroup;
 			children = (
+				669BB71B27D6567D002F8E66 /* Screens */,
 				669BB6F127D64F85002F8E66 /* Sales_Recreation_AppApp.swift */,
 				669BB6F327D64F85002F8E66 /* ContentView.swift */,
 				669BB6F527D64F87002F8E66 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				669BB70E27D64F87002F8E66 /* Sales_Recreation_AppUITestsLaunchTests.swift */,
 			);
 			path = Sales_Recreation_AppUITests;
+			sourceTree = "<group>";
+		};
+		669BB71B27D6567D002F8E66 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				669BB71C27D65699002F8E66 /* Home.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				669BB6F427D64F85002F8E66 /* ContentView.swift in Sources */,
+				669BB71D27D65699002F8E66 /* Home.swift in Sources */,
 				669BB6F227D64F85002F8E66 /* Sales_Recreation_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
